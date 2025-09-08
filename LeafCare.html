@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launch Your Cannabis Clinic With Everything Included - Free $2,000 Website | LeafCare</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        .hero h2 {
+            font-size: 24px;
+            margin-bottom: 30px;
+            font-weight: 400;
+            opacity: 0.95;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 18px 40px;
+            font-size: 20px;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+        }
+        .cta-button:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        .urgency-badge {
+            display: inline-block;
+            background: #ff4757;
+            padding: 10px 20px;
+            border-radius: 25px;
+            margin-top: 20px;
+            font-weight: 600;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .trust-badges {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255,255,255,0.15);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .section-header h2 {
+            font-size: 36px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        .pain-solution-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .pain-card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .pain-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+        .pain-header {
+            color: #e74c3c;
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .solution-header {
+            color: #27ae60;
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .stat-card {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        .stat-number {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .value-section {
+            background: #f8f9fa;
+        }
+        .value-list {
+            list-style: none;
+            padding: 0;
+        }
+        .value-list li {
+            padding: 15px 0;
+            padding-left: 40px;
+            position: relative;
+            font-size: 18px;
+        }
+        .value-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #4CAF50;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        /* .testimonial {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .testimonial-text {
+            font-style: italic;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .testimonial-author {
+            font-weight: 600;
+            color: #667eea;
+        } */
+        /* .faq-item {
+            background: white;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .faq-question {
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        } */
+        .final-cta {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+        }
+        .highlight {
+            background: #ffeaa7;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        .bonus-box {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+        .bonus-header {
+            color: #856404;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+            .hero h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="container">
+        <h1>Launch Your Medicinal Cannabis Clinic With Everything Included — Free $2,000 Website + Setup</h1>
+        <h2>Purpose-built software that handles TGA compliance, patient management, and prescriptions — so you can focus on growing your clinic, not fighting with spreadsheets</h2>
+        
+        <a href="#book-strategy" class="cta-button">Book A Demo Now</a>
+        
+        <div class="urgency-badge">
+            ⚡ Only 15 Spots Available This Quarter
+        </div>
+        
+        <div class="trust-badges">
+            <div class="trust-badge">
+                <span>🏆</span>
+                <span>12+ Years in Cannabis Tech</span>
+            </div>
+            <div class="trust-badge">
+                <span>🔒</span>
+                <span>ISO 27001 Certified</span>
+            </div>
+            <div class="trust-badge">
+                <span>✅</span>
+                <span>100% TGA Compliant</span>
+            </div>
+            <div class="trust-badge">
+                <span>🇦🇺</span>
+                <span>Australian Owned & Operated</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROBLEM SECTION -->
+<section class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Starting a Cannabis Clinic Shouldn't Feel Like Rocket Science</h2>
+            <p>But right now, you're drowning in...</p>
+        </div>
+        
+        <div class="pain-solution-grid">
+            <div class="pain-card">
+                <div class="pain-header">❌ THE PROBLEM:</div>
+                <h3>Patient Management Chaos</h3>
+                <p>Juggling Cliniko for appointments, spreadsheets for tracking, Zoom for consults, and endless emails for follow-ups. Patients fall and losing revenue.</p>
+            </div>
+            
+            <div class="pain-card">
+                <div class="pain-header">❌ THE PROBLEM:</div>
+                <h3>Generic Software Nightmares</h3>
+                <p>Current practice management system wasn't built for cannabis. No SAS-B forms, no SafeScript integration, no proper prescribing workflows. You're forcing square pegs into round holes.</p>
+            </div>
+            
+            <div class="pain-card">
+                <div class="pain-header">❌ THE PROBLEM:</div>
+                <h3>Compliance Anxiety</h3>
+                <p>TGA audits keep you up at night. Are your SAS-B applications correct? Is SafeScript properly documented? One mistake could shut you down before you even get started.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SOLUTION SECTION -->
+<section class="section value-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>What If Everything Just... Worked?</h2>
+            <p>LeafCare transforms your clinic chaos into streamlined success</p>
+        </div>
+        
+        <div class="pain-solution-grid">
+            <div class="pain-card">
+                <div class="solution-header">✅ THE SOLUTION:</div>
+                <h3>All-in-One Cannabis Platform</h3>
+                <p>Patient intake, nurse consults, prescriber workflows, and pharmacy fulfillment — all in one system designed specifically for Australian cannabis clinics.</p>
+            </div>
+            
+            <div class="pain-card">
+                <div class="solution-header">✅ THE SOLUTION:</div>
+                <h3>Automated Compliance</h3>
+                <p>SAS-B forms auto-populate in 3 clicks. SafeScript integration built-in. Audit trails generate automatically. Pass every TGA audit with confidence.</p>
+            </div>
+            
+            <div class="pain-card">
+                <div class="solution-header">✅ THE SOLUTION:</div>
+                <h3>White-Label Patient Portal</h3>
+                <p>Your brand, your logo, your professional image. Patients self-screen, book appointments, and pay online — while you sleep.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BONUS VALUE SECTION -->
+<section class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Your Complete Cannabis Clinic Launch Package</h2>
+            <p>Everything you need to go from idea to first patient in weeks, not months</p>
+        </div>
+        
+        <div class="bonus-box">
+            <div class="bonus-header">🎁 LIMITED TIME BONUS (Value: $2,000+)</div>
+            <p><strong>When you book your free strategy session, you'll receive:</strong></p>
+            <ul class="value-list">
+                <li>Professional cannabis clinic website with booking system & compliance pages</li>
+                <li>Custom launch timeline mapped from planning to first patient</li>
+                <li>State-specific TGA compliance roadmap & requirements checklist</li>
+                <li>Revenue projection calculator based on your market</li>
+                <li>Complete clinic template pack (intake forms, consent docs, policies)</li>
+                <li>Competitive analysis of 3 local cannabis clinics</li>
+                <li>Transparent setup & ongoing cost breakdown</li>
+                <li>Live demo showing how to save 10+ hours every week</li>
+            </ul>
+            <p style="margin-top: 20px;"><strong>Even if you don't sign up, these resources are yours to keep.</strong></p>
+        </div>
+    </div>
+</section>
+
+<!-- STATS/PROOF SECTION -->
+<section class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2>The Numbers Don't Lie</h2>
+            <p>Real results from real Australian cannabis clinics</p>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">40-50%</div>
+                <div>Admin Time Saved</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">60%</div>
+                <div>Faster Patient Onboarding</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">3 Clicks</div>
+                <div>To Complete Prescriptions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">100%</div>
+                <div>Audit Success Rate</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURES SECTION -->
+<section class="section value-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Everything You Need for Smooth Cannabis Clinic Management</h2>
+            <p>One platform. Four specialized portals. Complete control.</p>
+        </div>
+        
+        <ul class="value-list">
+            <li><strong>Patient Portal:</strong> Self-service screening, booking, payments, and document management</li>
+            <li><strong>Nurse Portal:</strong> Streamlined intake, consultation management, and patient triage</li>
+            <li><strong>Prescriber Portal:</strong> 3-click prescriptions, automated TGA forms, integrated e-scripts</li>
+            <li><strong>Admin Dashboard:</strong> Real-time analytics, compliance tracking, and business intelligence</li>
+            <li><strong>Built-in Compliance:</strong> SAS-B, Authorised Prescriber, SafeScript, Category 5 tracking</li>
+            <li><strong>Seamless Integrations:</strong> Cliniko, Xero, Zoom, Fred NXT, Medicare NPDS</li>
+            <li><strong>White-Label Solution:</strong> Your brand on every patient touchpoint</li>
+            <li><strong>Enterprise Security:</strong> ISO 27001, HIPAA-ready, Australian data residency</li>
+        </ul>
+    </div>
+</section>
+
+<!-- TESTIMONIALS SECTION -->
+<!-- <section class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Don't Just Take Our Word For It</h2>
+            <p>See what Australian cannabis clinics are saying</p>
+        </div>
+        
+        <div class="testimonial">
+            <p class="testimonial-text">"Cannabiz Elite took us from idea to first patient in 3 weeks. The compliance features alone saved us months of worry and preparation."</p>
+            <p class="testimonial-author">— Dr. Sarah M., Melbourne Cannabis Clinic</p>
+        </div>
+        
+        <div class="testimonial">
+            <p class="testimonial-text">"Finally, a system actually built for cannabis. Our admin time dropped 60% in the first month. We're seeing 3x more patients without hiring more staff."</p>
+            <p class="testimonial-author">— James R., Clinic Director, Brisbane</p>
+        </div>
+        
+        <div class="testimonial">
+            <p class="testimonial-text">"The audit trail features gave us complete confidence. When the TGA came knocking, everything was ready with one click. Passed with flying colors."</p>
+            <p class="testimonial-author">— Dr. Michael L., Sydney Telehealth Clinic</p>
+        </div>
+    </div>
+</section> -->
+
+<!-- FAQ SECTION -->
+<!-- <section class="section value-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Your Questions, Answered</h2>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: We already use Cliniko/MediRecords. Do we need to switch everything?</div>
+            <div>A: Not at all! LeafCare integrates with your existing practice management system. Many clinics start hybrid — using current tools while LeafCare handles cannabis-specific workflows. Migrate at your own pace, or keep both running seamlessly.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: How long does implementation take?</div>
+            <div>A: Average go-live is just 4 weeks. We provide free data migration, comprehensive onboarding, and your team will find the interface intuitive — it's designed to feel familiar from day one.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: What about hidden costs?</div>
+            <div>A: Zero hidden fees. We quote transparent, all-inclusive pricing. Most clinics recoup their investment within 8-12 weeks through time savings alone. Our ROI calculator will show you exact numbers based on your patient volume.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: Is our patient data secure?</div>
+            <div>A: Absolutely. We're ISO 27001 certified, HIPAA-ready, and fully compliant with the Australian Privacy Act. All data is hosted in Australian data centers. We undergo regular penetration testing and have never had a security breach in 12+ years.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q: What if regulations change?</div>
+            <div>A: Regulatory compliance is our core focus. We push automatic updates whenever TGA rules change. Our 100% compliance track record means no client has ever failed an audit due to our software.</div>
+        </div>
+    </div>
+</section> -->
+
+<!-- FINAL CTA SECTION -->
+<section class="final-cta" id="book-strategy">
+    <div class="container">
+        <h2>Ready to Launch Your Cannabis Clinic the Smart Way?</h2>
+        <p style="font-size: 20px; margin: 20px 0;">Stop fighting with generic software. Start growing with purpose-built tools.</p>
+        
+        <div style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 10px; margin: 30px auto; max-width: 600px;">
+            <h3 style="margin-bottom: 20px;">Your Risk-Free Offer Includes:</h3>
+            <ul style="text-align: left; list-style: none; padding: 0;">
+                <li style="padding: 10px 0;">✅ No long-term contracts</li>
+                <li style="padding: 10px 0;">✅ 30-day money-back guarantee</li>
+                <li style="padding: 10px 0;">✅ Free migration from current systems</li>
+                <li style="padding: 10px 0;">✅ Dedicated Australian support team</li>
+                <li style="padding: 10px 0;">✅ FREE $2,000 website & setup package</li>
+            </ul>
+        </div>
+        
+        <a href="#" class="cta-button" style="background: white; color: #667eea;">Claim Your Free Website + Strategy Session</a>
+        
+        <div class="urgency-badge" style="background: white; color: #ff4757; margin-top: 30px;">
+            ⏰ Only 15 Spots Available — 7 Already Claimed This Week
+        </div>
+        
+        <p style="margin-top: 20px; opacity: 0.9;">Or call us directly: 1300 LEAF CARE</p>
+    </div>
+</section>
+
+</body>
+</html>
